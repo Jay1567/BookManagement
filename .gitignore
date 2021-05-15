@@ -8,7 +8,9 @@ SS/
 *.log
 *.pot
 *.pyc
+__pycache__
 __pycache__/
+**/__pycache__/
 migrations/
 local_settings.py
 db.sqlite3
@@ -16,7 +18,7 @@ db.sqlite3-journal
 media
 
 # django migrations 
-**/migrations/**
+*/migrations/**
 !**/migrations
 !**/migrations/__init__.py
 
